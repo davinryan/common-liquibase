@@ -13,7 +13,7 @@ import java.util.Set;
  * Created by RyanDa on 02/03/2016.
  * Main class for running liquibase
  */
-abstract class AbstractRunLiquibase {
+public abstract class AbstractRunLiquibase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(AbstractRunLiquibase.class);
     private static HelpFormatter formatter = new HelpFormatter();
@@ -89,9 +89,9 @@ abstract class AbstractRunLiquibase {
      *
      * @throws LiquibaseException
      */
-    abstract void runLiquibase() throws LiquibaseException;
+    public abstract void runLiquibase() throws LiquibaseException;
 
-    Properties getProperties() {
+    public Properties getProperties() {
         return properties;
     }
 }

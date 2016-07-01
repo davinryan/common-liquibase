@@ -19,7 +19,7 @@ public abstract class AbstractRunLiquibase {
     private static HelpFormatter formatter = new HelpFormatter();
     private Properties properties;
 
-    AbstractRunLiquibase(String[] args) {
+    public AbstractRunLiquibase(String[] args) {
         // 1.) Get default props
         Properties defaultProperties = getDefaultProperties();
 

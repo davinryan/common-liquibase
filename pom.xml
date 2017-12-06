@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>common-liquibase</artifactId>
-    <groupId>com.davinvicky.common</groupId>
+    <groupId>com.davinryan.common</groupId>
     <version>0.0.14-SNAPSHOT</version>
     <packaging>jar</packaging>
 
